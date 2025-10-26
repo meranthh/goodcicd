@@ -1,0 +1,12 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "description": "Minimal CI/CD demo project for GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "mkdir -p dist && echo 'Build successful!' > dist/index.html"
+  },
+  "author": "Demo",
+  "license": "MIT"
+}
